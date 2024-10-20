@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   nodejs,
@@ -27,6 +28,7 @@ import {
   dcc,
   kelhel,
   microverse,
+  aws
 } from '../assets';
 
 export const navLinks = [
@@ -46,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Frontend Development',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Backend Development',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'DevOps & CI/CD',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Testing & Automation',
     icon: prototyping,
   },
 ];
@@ -97,13 +99,13 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Next JS',
+    icon: nextjs,
   },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
   {
     name: 'postgresql',
     icon: postgresql,
@@ -112,13 +114,17 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
+  // {
+  //   name: 'figma',
+  //   icon: figma,
+  // },
   {
     name: 'docker',
     icon: docker,
+  },
+   {
+    name: 'AWS',
+    icon: aws,
   },
 ];
 

@@ -32,12 +32,14 @@ import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
+import nextjs from './tech/nextjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import aws from './tech/aws.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -85,6 +87,7 @@ export {
   postgresql,
   rubyrails,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   typescript,
@@ -98,4 +101,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  aws
 };

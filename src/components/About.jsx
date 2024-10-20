@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I'm a dedicated Full-Stack Developer with 4 years of experience building modern web applications. My expertise lies in using React, Next.js, and Node.js to create scalable, user-focused solutions. This portfolio highlights my skills in both front-end and back-end development, showcasing projects that reflect my commitment to clean, efficient code and seamless user experiences.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

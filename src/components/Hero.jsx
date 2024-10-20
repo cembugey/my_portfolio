@@ -46,10 +46,18 @@ const Hero = () => {
                 Cem
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
-            </p>
+            {/* <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+              FULL-STACK DEVELOPER
+            </p> */}
+            {/* <h2 class="text-[#838383] text-lg sm:text-xl md:text-2xl font-semibold tracking-wide mt-4 shadow-lg">
+              Experienced Full-Stack Developer with specialized knowledge in all stages of the software development lifecycle
+            </h2> */}
+            <div className="relative">
+              <h2 className="text-black text-lg sm:text-xl md:text-2xl font-semibold tracking-wide mt-4 relative z-10">
+                Experienced Full-Stack Developer with specialized knowledge in all stages of the software development lifecycle
+              </h2>
+              <div className="absolute inset-0 bg-white opacity-50 blur-lg"></div>
+            </div>
           </div>
           <div
             className="w-screen flex flex-col items-start 
